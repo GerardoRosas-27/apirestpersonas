@@ -25,8 +25,8 @@ public class PersonaapirestApplicationTests {
 	@Test
 	public void crearUsuarioTest() {
 		Usuario usuario = new Usuario();
-		usuario.setId(2);
-		usuario.setNombre("gerardo rosas");
+		usuario.setId(3);
+		usuario.setNombre("bruster");
 		usuario.setClave(encoder.encode("123"));
 		Usuario retorno = repo.save(usuario);
 		
